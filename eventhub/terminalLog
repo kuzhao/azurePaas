@@ -1,0 +1,308 @@
+$ python send.py "<connStr>" "examplehub"
+Sending message: 0
+Sending message: 1
+Sending message: 2
+Sending message: 3
+Sending message: 4
+Sending message: 5
+Sending message: 6
+Sending message: 7
+Sending message: 8
+Sending message: 9
+Sending message: 10
+Sending message: 11
+Sending message: 12
+Sending message: 13
+Sending message: 14
+Sending message: 15
+Sending message: 16
+Sending message: 17
+Sending message: 18
+Sending message: 19
+Sending message: 20
+Sending message: 21
+Sending message: 22
+Sending message: 23
+Sending message: 24
+Sending message: 25
+Sending message: 26
+Sending message: 27
+Sending message: 28
+Sending message: 29
+Sending message: 30
+Sending message: 31
+Sending message: 32
+Sending message: 33
+Sending message: 34
+Sending message: 35
+Sending message: 36
+Sending message: 37
+Sending message: 38
+Sending message: 39
+Sending message: 40
+Sending message: 41
+Sending message: 42
+Sending message: 43
+Sending message: 44
+Sending message: 45
+Sending message: 46
+Sending message: 47
+Sending message: 48
+Sending message: 49
+Sending message: 50
+Sending message: 51
+Sending message: 52
+Sending message: 53
+Sending message: 54
+Sending message: 55
+Sending message: 56
+Sending message: 57
+Sending message: 58
+Sending message: 59
+Sending message: 60
+Sending message: 61
+Sending message: 62
+Sending message: 63
+Sending message: 64
+Sending message: 65
+Sending message: 66
+Sending message: 67
+Sending message: 68
+Sending message: 69
+Sending message: 70
+Sending message: 71
+Sending message: 72
+Sending message: 73
+Sending message: 74
+Sending message: 75
+Sending message: 76
+Sending message: 77
+Sending message: 78
+Sending message: 79
+Sending message: 80
+Sending message: 81
+Sending message: 82
+Sending message: 83
+Sending message: 84
+Sending message: 85
+Sending message: 86
+Sending message: 87
+Sending message: 88
+Sending message: 89
+Sending message: 90
+Sending message: 91
+Sending message: 92
+Sending message: 93
+Sending message: 94
+Sending message: 95
+Sending message: 96
+Sending message: 97
+Sending message: 98
+Sending message: 99
+Send 100 messages in 33.6088604927063 seconds
+
+python recv.py "<connStr>" "examplehub" "15/09/2019 01:26:00"
+Received: <azure.eventhub.common.Offset object at 0x000001058A018548>, 50
+msg #1 at 2019-09-15 09:26:56.743882
+Received: <azure.eventhub.common.Offset object at 0x000001058A018688>, 51
+msg #3 at 2019-09-15 09:26:57.314880
+Received: <azure.eventhub.common.Offset object at 0x000001058A018588>, 52
+msg #5 at 2019-09-15 09:26:57.922882
+Received: <azure.eventhub.common.Offset object at 0x000001058A018648>, 53
+msg #7 at 2019-09-15 09:26:58.472878
+Received: <azure.eventhub.common.Offset object at 0x000001058A018548>, 54
+msg #9 at 2019-09-15 09:26:59.034900
+Received: <azure.eventhub.common.Offset object at 0x000001058A018688>, 55
+msg #11 at 2019-09-15 09:26:59.599880
+Received: <azure.eventhub.common.Offset object at 0x000001058A018588>, 56
+msg #13 at 2019-09-15 09:27:00.159878
+Received: <azure.eventhub.common.Offset object at 0x000001058A018648>, 57
+msg #15 at 2019-09-15 09:27:00.725883
+Received: <azure.eventhub.common.Offset object at 0x000001058A018548>, 58
+msg #17 at 2019-09-15 09:27:01.286882
+Received: <azure.eventhub.common.Offset object at 0x000001058A018688>, 59
+msg #19 at 2019-09-15 09:27:01.842882
+Received: <azure.eventhub.common.Offset object at 0x000001058A018588>, 60
+msg #21 at 2019-09-15 09:27:02.407882
+Received: <azure.eventhub.common.Offset object at 0x000001058A018648>, 61
+msg #23 at 2019-09-15 09:27:02.984878
+Received: <azure.eventhub.common.Offset object at 0x000001058A018548>, 62
+msg #25 at 2019-09-15 09:27:03.535882
+Received: <azure.eventhub.common.Offset object at 0x000001058A018688>, 63
+msg #27 at 2019-09-15 09:27:04.126879
+Received: <azure.eventhub.common.Offset object at 0x000001058A018588>, 64
+msg #29 at 2019-09-15 09:27:04.690883
+Received: <azure.eventhub.common.Offset object at 0x000001058A018648>, 65
+msg #31 at 2019-09-15 09:27:05.247883
+Received: <azure.eventhub.common.Offset object at 0x000001058A018548>, 66
+msg #33 at 2019-09-15 09:27:05.798880
+Received: <azure.eventhub.common.Offset object at 0x000001058A018688>, 67
+msg #35 at 2019-09-15 09:27:06.376879
+Received: <azure.eventhub.common.Offset object at 0x000001058A018588>, 68
+msg #37 at 2019-09-15 09:27:06.922878
+Received: <azure.eventhub.common.Offset object at 0x000001058A018648>, 69
+msg #39 at 2019-09-15 09:27:07.496882
+Received: <azure.eventhub.common.Offset object at 0x000001058A018548>, 70
+msg #41 at 2019-09-15 09:27:08.066880
+Received: <azure.eventhub.common.Offset object at 0x000001058A018688>, 71
+msg #43 at 2019-09-15 09:27:08.616879
+Received: <azure.eventhub.common.Offset object at 0x000001058A018588>, 72
+msg #45 at 2019-09-15 09:27:09.184880
+Received: <azure.eventhub.common.Offset object at 0x000001058A018648>, 73
+msg #47 at 2019-09-15 09:27:09.745884
+Received: <azure.eventhub.common.Offset object at 0x000001058A018548>, 74
+msg #49 at 2019-09-15 09:27:10.319900
+Received: <azure.eventhub.common.Offset object at 0x000001058A018688>, 75
+msg #51 at 2019-09-15 09:27:10.891886
+Received: <azure.eventhub.common.Offset object at 0x000001058A018588>, 76
+msg #53 at 2019-09-15 09:27:11.449879
+Received: <azure.eventhub.common.Offset object at 0x000001058A018648>, 77
+msg #55 at 2019-09-15 09:27:12.072882
+Received: <azure.eventhub.common.Offset object at 0x000001058A018548>, 78
+msg #57 at 2019-09-15 09:27:12.637884
+Received: <azure.eventhub.common.Offset object at 0x000001058A018688>, 79
+msg #59 at 2019-09-15 09:27:13.219879
+Received: <azure.eventhub.common.Offset object at 0x000001058A018588>, 80
+msg #61 at 2019-09-15 09:27:13.773878
+Received: <azure.eventhub.common.Offset object at 0x000001058A018648>, 81
+msg #63 at 2019-09-15 09:27:14.322882
+Received: <azure.eventhub.common.Offset object at 0x000001058A018548>, 82
+msg #65 at 2019-09-15 09:27:14.895883
+Received: <azure.eventhub.common.Offset object at 0x000001058A018688>, 83
+msg #67 at 2019-09-15 09:27:15.492878
+Received: <azure.eventhub.common.Offset object at 0x000001058A018588>, 84
+msg #69 at 2019-09-15 09:27:16.092879
+Received: <azure.eventhub.common.Offset object at 0x000001058A018648>, 85
+msg #71 at 2019-09-15 09:27:16.659878
+Received: <azure.eventhub.common.Offset object at 0x000001058A018548>, 86
+msg #73 at 2019-09-15 09:27:17.219883
+Received: <azure.eventhub.common.Offset object at 0x000001058A018688>, 87
+msg #75 at 2019-09-15 09:27:17.823880
+Received: <azure.eventhub.common.Offset object at 0x000001058A018588>, 88
+msg #77 at 2019-09-15 09:27:18.385878
+Received: <azure.eventhub.common.Offset object at 0x000001058A018648>, 89
+msg #79 at 2019-09-15 09:27:18.949881
+Received: <azure.eventhub.common.Offset object at 0x000001058A018548>, 90
+msg #81 at 2019-09-15 09:27:19.504882
+Received: <azure.eventhub.common.Offset object at 0x000001058A018688>, 91
+msg #83 at 2019-09-15 09:27:20.072903
+Received: <azure.eventhub.common.Offset object at 0x000001058A018588>, 92
+msg #85 at 2019-09-15 09:27:20.619881
+Received: <azure.eventhub.common.Offset object at 0x000001058A018648>, 93
+msg #87 at 2019-09-15 09:27:21.180882
+Received: <azure.eventhub.common.Offset object at 0x000001058A018548>, 94
+msg #89 at 2019-09-15 09:27:21.732458
+Received: <azure.eventhub.common.Offset object at 0x000001058A018688>, 95
+msg #91 at 2019-09-15 09:27:22.320441
+Received: <azure.eventhub.common.Offset object at 0x000001058A018588>, 96
+msg #93 at 2019-09-15 09:27:22.876439
+Received: <azure.eventhub.common.Offset object at 0x000001058A018648>, 97
+msg #95 at 2019-09-15 09:27:23.431438
+Received: <azure.eventhub.common.Offset object at 0x000001058A018548>, 98
+msg #97 at 2019-09-15 09:27:24.010442
+Received: <azure.eventhub.common.Offset object at 0x000001058A018688>, 99
+msg #99 at 2019-09-15 09:27:24.562439
+consumer0 on Partition 0:
+Received 50 messages in 5.209144353866577 seconds
+Received: <azure.eventhub.common.Offset object at 0x000001058A0119C8>, 50
+msg #0 at 2019-09-15 09:26:56.466944
+Received: <azure.eventhub.common.Offset object at 0x000001058A011AC8>, 51
+msg #2 at 2019-09-15 09:26:57.029884
+Received: <azure.eventhub.common.Offset object at 0x000001058A011948>, 52
+msg #4 at 2019-09-15 09:26:57.646882
+Received: <azure.eventhub.common.Offset object at 0x000001058A011B08>, 53
+msg #6 at 2019-09-15 09:26:58.191880
+Received: <azure.eventhub.common.Offset object at 0x000001058A0119C8>, 54
+msg #8 at 2019-09-15 09:26:58.749881
+Received: <azure.eventhub.common.Offset object at 0x000001058A011AC8>, 55
+msg #10 at 2019-09-15 09:26:59.318882
+Received: <azure.eventhub.common.Offset object at 0x000001058A011948>, 56
+msg #12 at 2019-09-15 09:26:59.879880
+Received: <azure.eventhub.common.Offset object at 0x000001058A011B08>, 57
+msg #14 at 2019-09-15 09:27:00.440883
+Received: <azure.eventhub.common.Offset object at 0x000001058A0119C8>, 58
+msg #16 at 2019-09-15 09:27:01.010880
+Received: <azure.eventhub.common.Offset object at 0x000001058A011AC8>, 59
+msg #18 at 2019-09-15 09:27:01.564880
+Received: <azure.eventhub.common.Offset object at 0x000001058A011948>, 60
+msg #20 at 2019-09-15 09:27:02.124881
+Received: <azure.eventhub.common.Offset object at 0x000001058A011B08>, 61
+msg #22 at 2019-09-15 09:27:02.699880
+Received: <azure.eventhub.common.Offset object at 0x000001058A0119C8>, 62
+msg #24 at 2019-09-15 09:27:03.263880
+Received: <azure.eventhub.common.Offset object at 0x000001058A011AC8>, 63
+msg #26 at 2019-09-15 09:27:03.812879
+Received: <azure.eventhub.common.Offset object at 0x000001058A011948>, 64
+msg #28 at 2019-09-15 09:27:04.402882
+Received: <azure.eventhub.common.Offset object at 0x000001058A011B08>, 65
+msg #30 at 2019-09-15 09:27:04.973879
+Received: <azure.eventhub.common.Offset object at 0x000001058A0119C8>, 66
+msg #32 at 2019-09-15 09:27:05.519882
+Received: <azure.eventhub.common.Offset object at 0x000001058A011AC8>, 67
+msg #34 at 2019-09-15 09:27:06.088879
+Received: <azure.eventhub.common.Offset object at 0x000001058A011948>, 68
+msg #36 at 2019-09-15 09:27:06.649883
+Received: <azure.eventhub.common.Offset object at 0x000001058A011B08>, 69
+msg #38 at 2019-09-15 09:27:07.199880
+Received: <azure.eventhub.common.Offset object at 0x000001058A0119C8>, 70
+msg #40 at 2019-09-15 09:27:07.775878
+Received: <azure.eventhub.common.Offset object at 0x000001058A011AC8>, 71
+msg #42 at 2019-09-15 09:27:08.339878
+Received: <azure.eventhub.common.Offset object at 0x000001058A011948>, 72
+msg #44 at 2019-09-15 09:27:08.906884
+Received: <azure.eventhub.common.Offset object at 0x000001058A011B08>, 73
+msg #46 at 2019-09-15 09:27:09.472881
+Received: <azure.eventhub.common.Offset object at 0x000001058A0119C8>, 74
+msg #48 at 2019-09-15 09:27:10.044878
+Received: <azure.eventhub.common.Offset object at 0x000001058A011AC8>, 75
+msg #50 at 2019-09-15 09:27:10.607878
+Received: <azure.eventhub.common.Offset object at 0x000001058A011948>, 76
+msg #52 at 2019-09-15 09:27:11.164881
+Received: <azure.eventhub.common.Offset object at 0x000001058A011B08>, 77
+msg #54 at 2019-09-15 09:27:11.744880
+Received: <azure.eventhub.common.Offset object at 0x000001058A0119C8>, 78
+msg #56 at 2019-09-15 09:27:12.360879
+Received: <azure.eventhub.common.Offset object at 0x000001058A011AC8>, 79
+msg #58 at 2019-09-15 09:27:12.910879
+Received: <azure.eventhub.common.Offset object at 0x000001058A011948>, 80
+msg #60 at 2019-09-15 09:27:13.501882
+Received: <azure.eventhub.common.Offset object at 0x000001058A011B08>, 81
+msg #62 at 2019-09-15 09:27:14.047882
+Received: <azure.eventhub.common.Offset object at 0x000001058A0119C8>, 82
+msg #64 at 2019-09-15 09:27:14.610878
+Received: <azure.eventhub.common.Offset object at 0x000001058A011AC8>, 83
+msg #66 at 2019-09-15 09:27:15.165879
+Received: <azure.eventhub.common.Offset object at 0x000001058A011948>, 84
+msg #68 at 2019-09-15 09:27:15.816882
+Received: <azure.eventhub.common.Offset object at 0x000001058A011B08>, 85
+msg #70 at 2019-09-15 09:27:16.377879
+Received: <azure.eventhub.common.Offset object at 0x000001058A0119C8>, 86
+msg #72 at 2019-09-15 09:27:16.933882
+Received: <azure.eventhub.common.Offset object at 0x000001058A011AC8>, 87
+msg #74 at 2019-09-15 09:27:17.519898
+Received: <azure.eventhub.common.Offset object at 0x000001058A011948>, 88
+msg #76 at 2019-09-15 09:27:18.110882
+Received: <azure.eventhub.common.Offset object at 0x000001058A011B08>, 89
+msg #78 at 2019-09-15 09:27:18.671882
+Received: <azure.eventhub.common.Offset object at 0x000001058A0119C8>, 90
+msg #80 at 2019-09-15 09:27:19.222882
+Received: <azure.eventhub.common.Offset object at 0x000001058A011AC8>, 91
+msg #82 at 2019-09-15 09:27:19.784883
+Received: <azure.eventhub.common.Offset object at 0x000001058A011948>, 92
+msg #84 at 2019-09-15 09:27:20.345880
+Received: <azure.eventhub.common.Offset object at 0x000001058A011B08>, 93
+msg #86 at 2019-09-15 09:27:20.899881
+Received: <azure.eventhub.common.Offset object at 0x000001058A0119C8>, 94
+msg #88 at 2019-09-15 09:27:21.454898
+Received: <azure.eventhub.common.Offset object at 0x000001058A011AC8>, 95
+msg #90 at 2019-09-15 09:27:22.021441
+Received: <azure.eventhub.common.Offset object at 0x000001058A011948>, 96
+msg #92 at 2019-09-15 09:27:22.594459
+Received: <azure.eventhub.common.Offset object at 0x000001058A011B08>, 97
+msg #94 at 2019-09-15 09:27:23.154438
+Received: <azure.eventhub.common.Offset object at 0x000001058A0119C8>, 98
+msg #96 at 2019-09-15 09:27:23.715441
+Received: <azure.eventhub.common.Offset object at 0x000001058A011AC8>, 99
+msg #98 at 2019-09-15 09:27:24.282437
+consumer1 on Partition 1:
+Received 100 messages in 5.214933633804321 seconds
