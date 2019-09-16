@@ -1,10 +1,10 @@
 # How to send and receive event via Azure EventHub  
-Sample code available at [kuzhao/azurePaas](https://github.com/kuzhao/azurePaas/tree/master/eventhub)
+Sample code available at [kuzhao/azurePaas](https://github.com/kuzhao/azurePaas/tree/master/eventhub/send_recv_offset)
 
 ### Create an EH namespace and instance  
 You should already have an EH resource ready for use. For how to create one, refer to [Quickstart via Azure portal](https://docs.microsoft.com/en-in/azure/event-hubs/event-hubs-create#create-an-event-hubs-namespace)  
 The next step would be to copy connStr and have it ready by your hand, as we will pass it as py mandatory argument of sample codes.  
-Refer to snapshot [here](https://github.com/kuzhao/azurePaas/tree/master/eventhub/getEHconnStr.png) on where to get it.
+Refer to snapshot [here](https://github.com/kuzhao/azurePaas/tree/master/eventhub/send_recv_offset/getEHconnStr.png) on where to get it.
 
 ###  Explanation on the code
 I composed both py files based on the example [azure-sdk-for-python](https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/eventhub/azure-eventhubs/examples)
@@ -26,7 +26,7 @@ Example:
 * In practical scenario, a more dynamic mechanism would be necessary to handle partition listening/reception  
 
 ### Sample logs
-Check [here](https://github.com/kuzhao/azurePaas/tree/master/eventhub/terminalLog) for a detailed send/recv running log.
+Check [here](https://github.com/kuzhao/azurePaas/tree/master/eventhub/send_recv_offset/terminalLog) for a detailed send/recv running log.
 
 ### EventHub metrics
-You should be able to see up and down in metric chart, Overview of EH namespace blade through AzurePortal. Refer to snapshot [here](https://github.com/kuzhao/azurePaas/tree/master/eventhub/EHmetrics.png) for an example.
+You should be able to see up and down in metric chart, Overview of EH namespace blade through AzurePortal. Refer to snapshot [here](https://github.com/kuzhao/azurePaas/tree/master/eventhub/send_recv_offset/EHmetrics.png) for an example.
