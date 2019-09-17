@@ -1,0 +1,7 @@
+FROM python
+RUN pip3 install azure-servicebus
+RUN mkdir /scripts
+COPY *.py /scripts/
+ENV SERVICE_BUS_HOSTNAME="sb-336243224" SERVICE_BUS_SAS_POLICY="RootManageSharedAccessKey" SERVICE_BUS_SAS_KEY='j9fnL1J1hvgKnrbCRQ3zbAYUmnqhkiF0V6ubgzyymMo=' SERVICE_BUS_CONNECTION_STR="" QUEUE_NAME='testqueue1' 
+WORKDIR /scripts
+ENTRYPOINT /usr/local/bin/python3 queue-rcv.py
