@@ -7,3 +7,5 @@ Personal collection of Azure PaaS service sample code, composed by self with ref
   * TBD
 * databricks -- snippets run in databricks
   * [How to send and receive data via Azure EventHub](https://github.com/kuzhao/azurePaas/tree/master/databricks/scala-eventhub) -- Scala example on send/recv
+* servicebus -- all Azure SB related code
+  * [How to send and receive msgs via SB queue](https://github.com/kuzhao/azurePaas/tree/master/servicebus/queue) -- Python example on queue msg send/recv with dockerfile and test pwshell script based on ACI
